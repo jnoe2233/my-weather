@@ -1,0 +1,138 @@
+html {
+    background: url('weather_app.png') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: auto;
+    font-family: 'Kosugi Maru', sans-serif;
+}
+
+.add{
+    width: 100%;
+    height: 75px;
+    padding: 0px;
+}
+
+.form{
+    float: right;
+}
+
+.form input[type=text]{
+    height:30px;
+    line-height: 30px;
+    border: solid 1px #ffffff;
+    background: transparent;
+    color: #ffffff;
+    padding: 0px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.button{
+    float: right;
+    height: 32px;
+    width: 30px;
+    line-height: 30px;
+    border: none;
+    background: #ffffff;
+    color: #000;
+    border-radius: 4px;
+    font-size: 18px;
+    margin: 0px 0px 0px 3px;
+    padding-bottom: 1px;
+}
+
+.card{
+    color: #ffffff;
+}
+
+.temp-info{
+    display: inline;
+}
+
+.city-name{
+    margin: 55px 0px 15px 0px;
+    text-transform: uppercase;
+}
+
+.high-low{
+    display: inline-block;
+    float: right;
+}
+
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 0px 15px;
+    height: 20px;
+    font-size: 10px;
+    line-height: 30px;
+    color: #ffffff;
+}
+
+.orange{
+    color: orangered;
+}
+
+@media screen and (min-width: 650px) {
+    .container{
+        margin: 50px 165px;
+    }
+    .temp {
+        font-size: 102px;
+    }
+    .fer{
+        font-size: 22px;
+    }
+    .high-low{
+        font-size: 26px;
+        line-height: 26px;
+        margin-top: 12px;
+    }
+    .small-fer{
+        font-size: 12px;
+    }
+    .city-name{
+        font-size: 30px;
+    }
+    .form input[type=text]{
+        width: 250px;
+    }
+    .add {
+        margin-bottom: 40px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 50px;
+    }
+    .temp {
+        font-size: 80px;
+    }
+    .fer{
+        font-size: 18px;
+    }
+    .high-low{
+        font-size: 20px;
+        line-height: 20px;
+        margin-top: 9px;
+    }
+    .small-fer{
+        font-size: 12px;
+    }
+    .city-name{
+        font-size: 24px;
+    }
+    .form input[type=text]{
+        width: 150px;
+    }
+    .add {
+        margin-bottom: 25px;
+    }
+}
